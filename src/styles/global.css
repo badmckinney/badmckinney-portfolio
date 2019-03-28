@@ -20,4 +20,9 @@ a:hover {
 
 .icon {
   margin-left: 10px;
+  transition: transform 0.25s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
 }
