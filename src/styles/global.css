@@ -26,3 +26,80 @@ a:hover {
 .icon:hover {
   transform: scale(1.2);
 }
+
+.nav a {
+  vertical-align: center;
+}
+
+.nav-item {
+  padding-bottom: 6px;
+  text-align: center;
+}
+
+.nav-item:hover {
+  border-bottom: 3px solid #f9ca24;
+}
+
+#typer::after {
+  display: none;
+}
+
+div.cursor-hard.cursor-block.typer.white-space {
+  min-height: 44px;
+  min-width: 40px;
+  vertical-align: top;
+}
+
+div.cursor-hard.cursor-block.typer.white-space::after {
+  height: 39px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#main {
+  align-content: center;
+}
+
+div.gatsby-image-wrapper {
+  position: static;
+}
+
+.status {
+  width: 60%;
+  margin: 75px auto;
+}
+
+.status__label {
+  color: #f9ca24;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.status__text {
+  font-family: sans-serif;
+}
+
+.status__link {
+  color: #f9ca24;
+  border-bottom: 1px solid #f9ca24;
+}
+
+.contact {
+  margin: 45px 0px 75px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a#contact-button {
+  border: 1px solid #f9ca24;
+  border-radius: 5px;
+  width: 140px;
+  text-align: center;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #424242;
+  font-size: 0.9em;
+  font-style: italic;
+}
