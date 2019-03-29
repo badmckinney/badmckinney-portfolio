@@ -10,7 +10,7 @@ const Nav = () => (
         justifyContent: 'center',
         alignItems: 'center',
         height: '40px',
-        marginBottom: `1.45rem`,
+        marginBottom: `50px`,
         marginLeft: 0,
         background: '#424242'
       }}>
@@ -18,7 +18,7 @@ const Nav = () => (
       <Link to="/legend"><li className="nav-item">The Legend</li></Link>
       <Link to="/work"><li className="nav-item">Work</li></Link>
       <Link to="blog"><li className="nav-item">Blog</li></Link>
-      <Link to="/contact"><li className="nav-item">Contact</li></Link>
+      <a href="mailto:brad@badmckinney.dev"><li className="nav-item">Contact</li></a>
     </ul>
   </nav>
 )
