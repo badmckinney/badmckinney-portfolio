@@ -39,11 +39,11 @@ const Header = ({ siteTitle }) => (
         display: 'flex',
         padding: `1.45rem 1.0875rem`
       }}>
-      <a href="https://medium.com/@badmckinney" target="_blank"><div style={{ color: '#000000' }} className="icon socicon-medium"></div></a>
-      <a href="https://www.instagram.com/badmckinney/" target="_blank"><div style={{ color: '#C13584' }} className="icon socicon-instagram"></div></a>
-      <a href="https://twitter.com/_badmckinney" target="_blank"><div style={{ color: '#4da7de' }} className="icon socicon-twitter"></div></a>
-      <a href="https://www.linkedin.com/in/badmckinney/" target="_blank"><div style={{ color: '#3371b7' }} className="icon socicon-linkedin"></div></a>
-      <a href="https://github.com/badmckinney" target="_blank"><div style={{ color: '#333333' }} className="icon socicon-github"></div></a>
+      <a href="https://medium.com/@badmckinney" target="_blank"><div style={{ color: '#000000' }} className="social-icon socicon-medium"></div></a>
+      <a href="https://www.instagram.com/badmckinney/" target="_blank"><div style={{ color: '#C13584' }} className="social-icon socicon-instagram"></div></a>
+      <a href="https://twitter.com/_badmckinney" target="_blank"><div style={{ color: '#4da7de' }} className="social-icon socicon-twitter"></div></a>
+      <a href="https://www.linkedin.com/in/badmckinney/" target="_blank"><div style={{ color: '#3371b7' }} className="social-icon socicon-linkedin"></div></a>
+      <a href="https://github.com/badmckinney" target="_blank"><div style={{ color: '#333333' }} className="social-icon socicon-github"></div></a>
     </div>
   </header >
 )
