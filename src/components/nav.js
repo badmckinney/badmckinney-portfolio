@@ -17,7 +17,6 @@ const Nav = () => (
       <Link to="/"><li className="nav-item">Home</li></Link>
       <Link to="/legend"><li className="nav-item">The Legend</li></Link>
       <Link to="/work"><li className="nav-item">Work</li></Link>
-      <Link to="blog"><li className="nav-item">Blog</li></Link>
       <a href="mailto:brad@badmckinney.dev"><li className="nav-item">Contact</li></a>
     </ul>
   </nav>
