@@ -2,13 +2,13 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import portrait from '../images/legend.jpg'
+import portrait from "../images/legend.jpg"
 
 const Legend = () => (
   <Layout>
     <SEO title="The Legend" />
     <div className="legend">
-      <h1>The Legend</h1>
+      <h1>Brad McKinney</h1>
       <hr className="yellow"></hr>
       <div className="legend__body">
         <img src={portrait} alt="tan dude with a big smile" />
