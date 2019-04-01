@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import favicon from "../images/favicon.ico"
 import favicon16 from "../images/favicon-16x16.png"
 import favicon32 from "../images/favicon-32x32.png"
+import legend from "../images/legend.jpg"
 
 function SEO({ description, lang, meta, keywords, title }) {
   const { site } = useStaticQuery(
@@ -56,7 +57,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: legend,
         },
         {
           name: `twitter:creator`,
