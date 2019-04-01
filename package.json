@@ -23,7 +23,15 @@
     "prettier": "^1.16.4"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "portfolio",
+    "resume",
+    "engineer",
+    "developer",
+    "dev",
+    "hawaii",
+    "software",
+    "techie"
   ],
   "license": "MIT",
   "scripts": {

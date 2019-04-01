@@ -50,7 +50,7 @@ class IndexPage extends Component {
       //   transitionTime={300}
       // >
       <Layout>
-        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+        <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `resume`, `portfolio`, `hawaii`, `engineer`, `developer`, `dev`]} />
         <div style={{ width: '900px', margin: '75px auto' }} className="intro">
           <h1 style={{ margin: 0 }}>Aloha!</h1>
           <h1 style={{

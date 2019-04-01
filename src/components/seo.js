@@ -40,15 +40,15 @@ function SEO({ description, lang, meta, keywords, title }) {
       meta={[
         {
           name: `description`,
-          content: metaDescription,
+          content: `Aloha, My name is Brad and I am a software engineer living in Honolulu, HI. Let's work together!`,
         },
         {
           property: `og:title`,
-          content: title,
+          content: `Bad McKinney`,
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: `Aloha, My name is Brad and I am a software engineer living in Honolulu, HI. Let's work together!`,
         },
         {
           property: `og:type`,
@@ -60,15 +60,15 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: `badmckinney`,
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `Bad McKinney`,
         },
         {
           name: `twitter:description`,
-          content: metaDescription,
+          content: `Aloha, My name is Brad and I am a software engineer living in Honolulu, HI. Let's work together!`,
         },
       ]
         .concat(
