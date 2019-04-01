@@ -5,7 +5,7 @@
   font-size: 0.8em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #fff;
+  color: #aaa;
 }
 
 a {
@@ -16,6 +16,7 @@ a {
 
 a:hover {
   transform: scale(1.1);
+  color: #fff;
 }
 
 .social-icon {
@@ -34,10 +35,12 @@ a:hover {
 .nav-item {
   padding: 3px 0px;
   text-align: center;
+  color: #aaa;
 }
 
 .nav-item:hover {
   border-bottom: 3px solid #f9ca24;
+  color: #fff;
 }
 
 #typer::after {
@@ -240,4 +243,14 @@ i {
 .project__description {
   text-align: start;
   font-size: 0.8em;
+}
+
+.copyright {
+  font-weight: bold;
+}
+
+.selected {
+  border-bottom: 3px solid #f9ca24;
+  transform: scale(1.1);
+  color: #fff;
 }
