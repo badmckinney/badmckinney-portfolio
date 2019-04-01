@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:image`,
-          content: legend
+          content: `${legend}`
         }
       ]
         .concat(
