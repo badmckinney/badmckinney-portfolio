@@ -17,38 +17,36 @@ class IndexPage extends Component {
   componentDidMount() {
     highlightActiveLink('home');
 
-    if (document.window) {
-      import("typer-js")
-        .then((typer) => {
-          this.typer = typer;
-        })
-        .catch((error) => console.error(error));
+    import("typer-js")
+      .then((typer) => {
+        this.typer = typer;
+      })
+      .catch((error) => console.error(error));
 
-      typer('.typer')
-        .cursor({ block: true, blink: 'hard', color: '#f9ca24' })
-        .line('software engineer')
-        .pause(2000)
-        .back('all')
-        .continue('code slinger')
-        .pause(1000)
-        .back('all')
-        .continue('husband and father')
-        .pause(1000)
-        .back('all')
-        .continue('story-teller')
-        .pause(1000)
-        .back('all')
-        .continue('life-long learner')
-        .pause(1000)
-        .back('all')
-        .continue('webhead')
-        .pause(1000)
-        .back('all')
-        .continue('thalassophile')
-        .pause(1000)
-        .back('all')
-        .continue('software engineer')
-    }
+    typer('.typer')
+      .cursor({ block: true, blink: 'hard', color: '#f9ca24' })
+      .line('software engineer')
+      .pause(2000)
+      .back('all')
+      .continue('code slinger')
+      .pause(1000)
+      .back('all')
+      .continue('husband and father')
+      .pause(1000)
+      .back('all')
+      .continue('story-teller')
+      .pause(1000)
+      .back('all')
+      .continue('life-long learner')
+      .pause(1000)
+      .back('all')
+      .continue('webhead')
+      .pause(1000)
+      .back('all')
+      .continue('thalassophile')
+      .pause(1000)
+      .back('all')
+      .continue('software engineer')
   }
 
   render() {
