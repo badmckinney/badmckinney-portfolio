@@ -43,7 +43,7 @@ const Layout = ({ children }) => (
         >
           <main id="main">{children}</main>
           <footer style={{ textAlign: 'center', fontSize: '0.8em' }}>
-            © Bad McKinney {new Date().getFullYear()}, All rights reserved
+            Handcrafted by me <span className="copyright">©</span> Bad McKinney {new Date().getFullYear()}, All rights reserved
           </footer>
         </div>
       </>
