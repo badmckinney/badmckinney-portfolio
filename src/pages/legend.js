@@ -73,11 +73,11 @@ class Legend extends Component {
             <div className="skill">&bull; Angular</div>
             <div className="skill">&bull; UI/UX</div>
             <div className="skill">&bull; Git</div>
-            <div className="skill">&bull; Agile Development</div>
+            <div className="skill">&bull; Testing</div>
             <div className="skill">&bull; OOP</div>
             <div className="skill">&bull; Rest API's</div>
             <div className="skill">&bull; MVC</div>
-            <div className="skill">&bull; Testing</div>
+            <div className="skill">&bull; Agile Development</div>
           </div>
           <div className="learning"> Currently learning: React Native, Gatsbyjs, Python</div>
         </div>
