@@ -77,7 +77,7 @@ class IndexPage extends Component {
         <div className="status">
           <h2 className="status__label">Current Status:</h2>
           <div className="status__text">
-            I am currently under contract to build an app for a startup based in San Francisco, but am actively seeking new work opportunity. See previous work history and education on <a href="https://www.linkedin.com/in/badmckinney/" target="_blank" rel="noopener noreferrer" className="status__link">LinkedIn</a> or check out some actual projects I've built on <a href="https://github.com/badmckinney" target="_blank" rel="noopener noreferrer" className="status__link">GitHub</a>. If you have an opportunity for me or just want to grab a coffee and talk shop, don't hesitate to reach out. I love making new friends.
+            I am actively seeking new work opportunity. See previous work history and education on <a href="https://www.linkedin.com/in/badmckinney/" target="_blank" rel="noopener noreferrer" className="status__link">LinkedIn</a> or check out some actual projects I've built on <a href="https://github.com/badmckinney" target="_blank" rel="noopener noreferrer" className="status__link">GitHub</a>. If you have an opportunity for me or just want to grab a coffee and talk shop, don't hesitate to reach out. I love making new friends.
           </div>
         </div>
         <hr></hr>
