@@ -71,6 +71,10 @@ function SEO({ description, lang, meta, keywords, title }) {
           name: `twitter:description`,
           content: `Aloha, My name is Brad and I am a software engineer living in Honolulu, HI. Let's work together!`,
         },
+        {
+          name: `twitter:image`,
+          content: legend
+        }
       ]
         .concat(
           keywords.length > 0
