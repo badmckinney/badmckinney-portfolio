@@ -51,14 +51,12 @@ class IndexPage extends Component {
       // >
       <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `resume`, `portfolio`, `hawaii`, `engineer`, `developer`, `dev`]} />
-        <div style={{ width: '900px', margin: '75px auto' }} className="intro">
-          <h1 style={{ margin: 0 }}>Aloha!</h1>
+        <div style={{ width: '900px' }} className="intro">
+          <h1 className="greeting">Aloha!</h1>
           <h1 style={{
             display: 'inline-block',
-            height: '39px',
             verticalAlign: 'top',
-            marginBottom: '8px'
-          }}>
+          }} className="greeting">
             My name is Brad and I am a
             <span style={{
               display: 'inline-block',
@@ -66,7 +64,7 @@ class IndexPage extends Component {
               verticalAlign: 'top',
             }} className="typer" id="typer"></span>
           </h1>
-          <h1>living in Honolulu, Hawaii.</h1>
+          <h1 className="greeting">living in Honolulu, Hawaii.</h1>
         </div>
         <Image />
         <div className="status">

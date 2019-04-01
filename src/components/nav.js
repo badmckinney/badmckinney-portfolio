@@ -10,7 +10,6 @@ const Nav = () => (
         justifyContent: 'center',
         alignItems: 'center',
         height: '40px',
-        marginBottom: `50px`,
         marginLeft: 0,
         background: '#424242'
       }}>

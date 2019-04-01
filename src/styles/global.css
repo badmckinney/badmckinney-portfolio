@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 .nav-item {
   list-style: none;
   font-family: sans-serif;
@@ -47,20 +51,26 @@ a:hover {
   display: none;
 }
 
+.intro {
+  margin: 75px auto;
+}
+
 div.cursor-hard.cursor-block.typer.white-space {
-  min-height: 44px;
   min-width: 40px;
   vertical-align: top;
 }
 
 div.cursor-hard.cursor-block.typer.white-space::after {
-  height: 39px;
   display: inline-block;
   vertical-align: top;
 }
 
 #main {
   align-content: center;
+}
+
+.greeting {
+  margin-bottom: 8px;
 }
 
 div.gatsby-image-wrapper {
@@ -253,4 +263,74 @@ i {
   border-bottom: 3px solid #f9ca24;
   transform: scale(1.1);
   color: #fff;
+}
+
+@media screen and (max-width: 420px) {
+  /* INDEX */
+  .nav-item {
+    margin: 0px 15px;
+    padding: 5.5px 0px;
+  }
+
+  .intro {
+    margin: 10px 0px 30px 0px;
+  }
+
+  .greeting {
+    font-size: 0.9em;
+  }
+
+  .status {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  /* LEGEND */
+  .legend,
+  .education,
+  .skills {
+    width: 95%;
+    margin: 30px 0px;
+  } 
+
+  .legend__body {
+    flex-direction: column;
+  }
+
+  .legend__body p {
+    padding: 0px;
+  }
+
+  i {
+    font-size: 1.5em;
+  }
+  
+  .skills__list {
+    margin-bottom: 30px;
+  }
+
+  .skill {
+    width: 50%;
+  }
+
+  /* WORK */
+  .work {
+    width: 95%;
+  }
+
+  .project__header {
+    flex-direction: column;
+  }
+
+  .tech {
+    display: none;
+  }
+
+  .screenshot {
+    height: 300px;
+  }
+
+  .shadowimg {
+    height: 250px;
+  }
 }
