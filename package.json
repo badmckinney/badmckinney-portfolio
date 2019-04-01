@@ -9,6 +9,7 @@
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-page-transitions": "^1.0.7",
     "gatsby-plugin-react-helmet": "^3.0.11",
     "gatsby-plugin-sharp": "^2.0.31",
     "gatsby-source-filesystem": "^2.0.28",
@@ -16,7 +17,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "typer-js": "^5.0.1"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
