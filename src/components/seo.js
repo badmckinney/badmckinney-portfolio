@@ -61,7 +61,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:creator`,
-          content: `badmckinney`,
+          content: `@_badmckinney`,
         },
         {
           name: `twitter:title`,
