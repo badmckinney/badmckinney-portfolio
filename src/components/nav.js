@@ -14,9 +14,9 @@ const Nav = () => (
         marginLeft: 0,
         background: '#424242'
       }}>
-      <Link to="/"><li className="nav-item">Home</li></Link>
-      <Link to="/legend"><li className="nav-item">The Legend</li></Link>
-      <Link to="/work"><li className="nav-item">Work</li></Link>
+      <Link to="/"><li id="home" className="nav-item">Home</li></Link>
+      <Link to="/legend"><li id="legend" className="nav-item">The Legend</li></Link>
+      <Link to="/work"><li id="work" className="nav-item">Work</li></Link>
       <a href="mailto:brad@badmckinney.dev"><li className="nav-item">Contact</li></a>
     </ul>
   </nav>
