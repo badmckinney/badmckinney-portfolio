@@ -19,6 +19,7 @@ class IndexPage extends Component {
 
     import("typer-js")
       .then((typer) => {
+        console.log(typer);
         typer.typer('.typer')
           .cursor({ block: true, blink: 'hard', color: '#f9ca24' })
           .line('software engineer')
