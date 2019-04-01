@@ -17,7 +17,7 @@ class IndexPage extends Component {
   componentDidMount() {
     highlightActiveLink('home');
 
-    if (typeof window !== undefined) {
+    if (typeof document.window !== undefined) {
       import("typer-js")
         .then((typer) => {
           this.typer = typer;
