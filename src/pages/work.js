@@ -58,7 +58,7 @@ class Work extends Component {
               </div>
             </div>
             <hr className="yellow"></hr>
-            <img src={shadowgab} alt="web application in a browser window" className="screenshot" style={{ width: '900px' }} />
+            <img src={shadowgab} alt="web application in a browser window" className="screenshot shadowimg" style={{ width: '900px' }} />
             <div className="project__description">
               Shadow Gab is a chat application that utilizes web sockets to allow real-time communication with a chatroom feature. Shadow Gab also pulls from a geolocation API to enable location sharing. The original idea behind Shadow Gab was to create a fully encrypted chat application that allows users to stay completely anonymous. The encryption feature is still being built.
             </div>

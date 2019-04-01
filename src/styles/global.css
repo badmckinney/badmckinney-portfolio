@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 .nav-item {
   list-style: none;
   font-family: sans-serif;
@@ -307,5 +311,26 @@ i {
 
   .skill {
     width: 50%;
+  }
+
+  /* WORK */
+  .work {
+    width: 95%;
+  }
+
+  .project__header {
+    flex-direction: column;
+  }
+
+  .tech {
+    display: none;
+  }
+
+  .screenshot {
+    height: 300px;
+  }
+
+  .shadowimg {
+    height: 250px;
   }
 }
