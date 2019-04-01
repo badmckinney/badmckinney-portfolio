@@ -1,9 +1,5 @@
 import React, { Component } from "react"
 
-// if (typeof window !== undefined) {
-//   import typer from 'typer-js'
-// }
-
 import Layout from "../components/layout"
 import Image from "../components/image"
 //import PageTransition from "gatsby-plugin-page-transitions"
@@ -19,7 +15,6 @@ class IndexPage extends Component {
 
     import("typer-js")
       .then((typer) => {
-        console.log(typer.default);
         typer.default('.typer')
           .cursor({ block: true, blink: 'hard', color: '#f9ca24' })
           .line('software engineer')
