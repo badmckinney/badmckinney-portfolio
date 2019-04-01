@@ -5,11 +5,15 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import PageTransition from "gatsby-plugin-page-transitions"
 
+import highlightActiveLink from "../utils/highlight"
+
 import SEO from "../components/seo"
 
 class IndexPage extends Component {
 
   componentDidMount() {
+    highlightActiveLink('home');
+
     typer('.typer')
       .cursor({ block: true, blink: 'hard', color: '#f9ca24' })
       .line('software engineer')
@@ -64,7 +68,7 @@ class IndexPage extends Component {
           <div className="status">
             <h2 className="status__label">Current Status:</h2>
             <div className="status__text">
-              I am currently under contract to build an app for a startup based in San Francisco, but am actively seeking new work opportunity. See previous work history and education on <a href="https://www.linkedin.com/in/badmckinney/" target="_blank" className="status__link">LinkedIn</a> or check out some actual projects I've built on <a href="https://github.com/badmckinney" target="_blank" className="status__link">GitHub</a>. If you have an opportunity for me or just want to grab a coffee and talk shop, don't hesitate to reach out. I love making new friends.
+              I am currently under contract to build an app for a startup based in San Francisco, but am actively seeking new work opportunity. See previous work history and education on <a href="https://www.linkedin.com/in/badmckinney/" target="_blank" rel="noopener noreferrer" className="status__link">LinkedIn</a> or check out some actual projects I've built on <a href="https://github.com/badmckinney" target="_blank" rel="noopener noreferrer" className="status__link">GitHub</a>. If you have an opportunity for me or just want to grab a coffee and talk shop, don't hesitate to reach out. I love making new friends.
           </div>
           </div>
           <hr></hr>
