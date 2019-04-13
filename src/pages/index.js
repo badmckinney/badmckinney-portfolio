@@ -51,7 +51,7 @@ class IndexPage extends Component {
       // >
       <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `resume`, `portfolio`, `hawaii`, `engineer`, `developer`, `dev`]} />
-        <div style={{ width: '900px' }} className="intro">
+        <div className="intro">
           <h1 className="greeting">Aloha!</h1>
           <h1 style={{
             display: 'inline-block',
@@ -60,7 +60,6 @@ class IndexPage extends Component {
             My name is Brad and I am a
             <span style={{
               display: 'inline-block',
-              marginLeft: '8px',
               verticalAlign: 'top',
             }} className="typer" id="typer"></span>
           </h1>

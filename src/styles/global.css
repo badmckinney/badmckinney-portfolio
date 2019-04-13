@@ -47,12 +47,17 @@ a:hover {
   color: #fff;
 }
 
+#typer {
+  margin-left: 8px;
+}
+
 #typer::after {
   display: none;
 }
 
 .intro {
   margin: 75px auto;
+  width: 900px;
 }
 
 div.cursor-hard.cursor-block.typer.white-space {
@@ -344,11 +349,20 @@ i {
   }
 
   .intro {
-    margin: 10px 0px 30px 0px;
+    margin: 10px auto 20px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #typer {
+    margin-left: 4px;
   }
 
   .greeting {
-    font-size: 0.9em;
+    font-size: 0.8em;
+    margin-bottom: 4px;
   }
 
   .status {
