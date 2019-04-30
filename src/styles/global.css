@@ -433,3 +433,183 @@ i {
     font-weight: 600;
   }
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { 
+  /* INDEX */
+  .nav-item {
+    margin: 0px 15px;
+    padding: 3.5px 0px;
+  }
+
+  .intro {
+    margin: 10px auto 20px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #typer {
+    margin-left: 4px;
+  }
+
+  .greeting {
+    font-size: 1.5em;
+    margin-bottom: 4px;
+    margin-left: 100px;
+  }
+
+  .status {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  /* LEGEND */
+  .legend,
+  .education,
+  .skills {
+    width: 95%;
+    margin: 30px 0px;
+  } 
+
+  .legend__body p {
+    padding: 5px 20px;
+    font-size: 0.8em;
+  }
+
+  i {
+    font-size: 1.5em;
+  }
+  
+  .skills__list {
+    margin-bottom: 30px;
+  }
+
+  /* WORK */
+  .work {
+    width: 95%;
+  }
+
+  .project__header {
+    flex-direction: column;
+  }
+
+  .tech {
+    display: none;
+  }
+
+  .screenshot {
+    height: 500px;
+  }
+
+  .shadowimg {
+    height: 450px;
+  }
+
+  #span404 {
+    position: static;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .back { 
+    font-size: 20px;
+    padding: .35em 1em;
+    border: 3px solid #000;
+    font-weight: 600;
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    /* INDEX */
+    .nav-item {
+      margin: 0px 15px;
+      padding: 3.5px 0px;
+    }
+  
+    .intro {
+      margin: 10px auto 20px auto;
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    #typer {
+      margin-left: 4px;
+    }
+  
+    .greeting {
+      font-size: 1.5em;
+      margin-bottom: 4px;
+      margin-left: 40px;
+    }
+  
+    .status {
+      width: 80%;
+      margin: 30px auto;
+    }
+  
+    /* LEGEND */
+    .legend,
+    .education,
+    .skills {
+      width: 95%;
+      margin: 30px 0px;
+    } 
+  
+    .legend__body p {
+      padding: 5px 20px;
+      font-size: 0.8em;
+    }
+  
+    i {
+      font-size: 1.5em;
+    }
+    
+    .skills__list {
+      margin-bottom: 30px;
+    }
+  
+    /* WORK */
+    .work {
+      width: 95%;
+    }
+  
+    .project__header {
+      flex-direction: column;
+    }
+  
+    .tech {
+      display: none;
+    }
+  
+    .screenshot {
+      height: 500px;
+    }
+  
+    .shadowimg {
+      height: 450px;
+    }
+  
+    #span404 {
+      position: static;
+      font-size: 0.8em;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  
+    .back { 
+      font-size: 20px;
+      padding: .35em 1em;
+      border: 3px solid #000;
+      font-weight: 600;
+    }
+}
